@@ -33,21 +33,6 @@ li a:hover{
 .contact:hover{
     background-color: #4D96FF;
 }
-.active1{
-    color: white;
-    background-color: #FF6B6B;
-    border-radius: 5px;
-}
-.active2{
-    color: white;
-    background-color: #6BCB77;
-    border-radius: 5px;
-}
-.active3{
-    color: white;
-    background-color: #4D96FF;
-    border-radius: 5px;
-}
 nav{
     background-color: white;
 }
@@ -60,7 +45,6 @@ h1{
     font-weight: 300;
     font-size: 100px;
 }
-
 #dynamicText {
     transition: opacity 0.4s ease, background-color 0.4s ease;
     opacity: 1;
@@ -81,22 +65,12 @@ button a{
 button:hover{
     background-color: white;
 }
-.cta-work{
-}
-.cta-contact{
-}
 .landing{
     margin-bottom: 400px;
 }
 
 .card{
     background-color: gray;
-}
-.contactMe{
-
-}
-.myWork{
-
 }
 .navbar-nav .nav-item .nav-link:hover{
     color: white;
@@ -109,4 +83,9 @@ button:hover{
 }
 .resume{
     color: white;
+}
+.card-link{
+    display: block;
+    text-decoration: none;
+    color: inherit;
 }
